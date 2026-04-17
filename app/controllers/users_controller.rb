@@ -4,5 +4,6 @@ class UsersController < ApplicationController
   end
 
   def index
+        @users = "You've done it!"
   end
 end
